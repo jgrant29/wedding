@@ -25,7 +25,6 @@ button {
 
 .navbar-brand {
   font-family: 'Parisienne', cursive;
-  font-size: 28px;
 }
 
 .nav-item {
@@ -48,7 +47,7 @@ button {
   right: 17px;
 }
 
-@media (max-width: 780px) {
+@media (min-width: 780px) {
   .main-text {
     font-size: 32px;
   }
@@ -66,5 +65,14 @@ button {
   position: absolute;
   bottom: 0;
   right: 12px;
+}
+
+@media (min-width: 250px) {
+  .main-text {
+    font-size: 18px;
+  }
+  .main-text-sm {
+    font-size: 14px;
+  }
 }
 
