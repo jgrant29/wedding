@@ -47,7 +47,7 @@ button {
   right: 17px;
 }
 
-@media (min-width: 780px) {
+@media (max-width: 780px) {
   .main-text {
     font-size: 32px;
   }
@@ -67,7 +67,7 @@ button {
   right: 12px;
 }
 
-@media (min-width: 250px) {
+@media (max-width: 250px) {
   .main-text {
     font-size: 18px;
   }
