@@ -1,0 +1,60 @@
+.hello-photo {
+  position: relative;
+  background-image: image_url("engagement.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 15%;
+  height: 100vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%);
+}
+
+.btn-adj {
+  background-color: #fffff0;
+  position: absolute;
+  left: 25px;
+  top: 8rem;
+  &:hover {
+    background-color: lighten(#fffff0, 5%);
+    color: #28a745;
+  };
+}
+
+.hello-content {
+  height: 520px;
+  z-index: -1;
+  padding-left: -15px;
+  padding-right: -15px;
+  background-attachment: fixed;
+  background-color: rgba(255, 182, 193, .5);
+  height: 100vh;
+}
+
+.hello-circle {
+  background: #fffff0;
+  border-radius: 50rem;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+  background-color: #fffff0;
+  position: absolute;
+  left: 25px;
+  top: 23rem;
+  border: 5px solid #ddd;
+}
+
+.hello-text {
+  padding-top: 70px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #191970;
+  font-family: 'Parisienne', cursive;
+  font-size: 48px;
+}
+
+
+

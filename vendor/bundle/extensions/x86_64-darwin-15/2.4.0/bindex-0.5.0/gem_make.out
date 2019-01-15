@@ -1,0 +1,15 @@
+current directory: /Users/justinMgrant/code/wedding/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/Users/justinMgrant/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20190114-8247-qouugr.rb extconf.rb
+creating Makefile
+
+current directory: /Users/justinMgrant/code/wedding/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/justinMgrant/code/wedding/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/justinMgrant/code/wedding/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190114-8247-1ym54d2/bindex
